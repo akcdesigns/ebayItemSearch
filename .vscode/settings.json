@@ -1,0 +1,8 @@
+{
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.vs*": true
+    }
+}
