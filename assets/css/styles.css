@@ -84,7 +84,7 @@ nav ul li a.active::before{
 	overflow: hidden;
 	position: relative;
 }
-#searchForm .content{
+.content{
 	padding: 10px 0;
 	display: flex;
 	position: relative;
