@@ -84,7 +84,7 @@ nav ul li a.active::before{
 	overflow: hidden;
 	position: relative;
 }
-.content{
+#searchForm .content{
 	padding: 10px 0;
 	display: flex;
 	position: relative;
@@ -205,10 +205,6 @@ border-left: none;
 background: none;
 font-size: 20px;
 border-left: 4px solid #111d5e;
-}
-
-.container{
-  width: 35%;
 }
 
 /* EBAY RESULTS STYLES */
