@@ -26,6 +26,9 @@ $('#searchForm').on('submit', e => {
       clear();
       res.forEach(element => {
         displayResults(element.title, element.galleryURL, element.condition[0].conditionDisplayName, element.viewItemURL, element.sellingStatus[0].convertedCurrentPrice[0].__value__)
+        $('#resultsContainer').show();
+        location.href = '#resultsContainer';
+
       })
     }
   });

@@ -223,6 +223,10 @@ border-left: 4px solid #111d5e;
 	margin: 15px;
 }
 
+#resultsContainer {
+	display: none;
+}
+
 #resultsContainer .card{
 	width: 400px;
 	height: 450px;
